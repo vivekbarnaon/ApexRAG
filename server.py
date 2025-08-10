@@ -46,7 +46,6 @@ except Exception:
 
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), timeout=30.0, max_retries=2)
-# Auth token now sourced from environment to avoid hardcoding; fallback preserves current behavior
 TEAM_TOKEN = os.getenv(
     "TEAM_TOKEN"
 )
