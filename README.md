@@ -35,7 +35,7 @@ py -3.11 --version
 powershell
 # From repository root
 py -3.11 -m venv .venv
-.\.venv\Scripts\Activate
+.\.venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 
