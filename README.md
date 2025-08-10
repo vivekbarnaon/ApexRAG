@@ -66,12 +66,6 @@ env
 OPENAI_API_KEY=sk-...
 TEAM_TOKEN=replace-with-your-shared-team-token
 
-# Optional
-CORS_ALLOW_ORIGINS=http://localhost:3000, http://127.0.0.1:3000
-HOST=0.0.0.0
-PORT=8000
-FLASK_DEBUG=false
-MAX_CONTENT_LENGTH_MB=5
 
 
 Notes:
@@ -221,7 +215,4 @@ Tips:
 - 401 Unauthorized: confirm the Authorization header value matches TEAM_TOKEN.
 - Large file uploads: increase MAX_CONTENT_LENGTH_MB in .env if needed.
 
----
 
-## 11) License / Submission Notes
-Include any hackathon-specific rules, attribution, or licenses here if required by your event.
